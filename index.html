@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Procesamiento de Imagenes</title>
+    <link rel="stylesheet" href="style/index.css">
+</head>
+<body>
+    <div class="banner">
+        <ul>
+        <h2>   Operacion bilineal   </h2>
+        </ul>
+    </div>
+    <div class="text">
+        <p>Seleccione una imagen</p>
+    </div>
+    <div class="contenedores">
+    <div class="conteiner1"> Imagen 1
+        <div class="Img-item">
+            <canvas id="img1" width="463" height="279" crossorigin="anounymous"></canvas>
+        </div>
+        <div class="item">
+            <input type="file" id="files" name="files">
+        </div>
+        <div class="item">
+            <output id="list"></output>
+        </div>
+        <div class="conteiner2"> Imagen 2
+            <div class="Img-item">
+                <canvas id="img2" width="463" height="279"></canvas>
+    </div>
+    </div>
+    <div>
+            <input  id="op-puntos" type="button" value="Dibujar puntos"  class="button2">
+            <input  id="op-bilineal" type="button" value="Operacion bilineal" class="button2">
+
+    </div>
+    <!-- <script src="dist/src/index.js"  type="module"> -->
+    <script src="dist/bundle.js"></script>
+</body>
+</html>
+
+ 
